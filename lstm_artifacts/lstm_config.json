@@ -1,0 +1,22 @@
+{
+  "input_size": 12,
+  "hidden_size": 64,
+  "num_layers": 2,
+  "dropout": 0.4,
+  "bidirectional": true,
+  "seq_len": 16,
+  "seq_stride": 8,
+  "frame_step": 5,
+  "max_frames": 3600,
+  "img_size": 640,
+  "yolo_conf": 0.25,
+  "use_yolo_trigger_crop": true,
+  "trigger_conf": 0.35,
+  "trigger_consecutive_frames": 2,
+  "trigger_max_scan_frames": 1500,
+  "yolo_weights": "C:\\Users\\2016n\\OneDrive\\Desktop\\lstm\\yolo\\best.pt",
+  "classes": {
+    "0": "non_fire",
+    "1": "fire"
+  }
+}
